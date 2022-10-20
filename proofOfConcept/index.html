@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Tarot</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Tarot Reading</h1>
+		<!-- have options for what kind of draw (3 card, 1 card, celtic cross) -->
+		<button id="oneCard">1 Card Draw</button>
+		<button id="threeCard">3 Card Draw</button>
+		<button id="fiveCard">5 Card Draw</button>
+
+		<!-- give card names, position, and meaning -->
+		<section id="oneCardSpread" class="reading">
+			<h2>One Card Spread</h2>
+			<p>explanation of how to read a one card spread</p>
+            <section class="cards">
+                <h3>Your Card Is...</h3>
+                <div class="card">
+                    <h4 id="firstCard1"></h4>
+                    <p id="firstCard1Ex"></p>
+                    <p id="desc11"></p>
+                </div>
+            </section>
+
+			
+			
+		</section>
+
+
+		<section id="threeCardSpread" class="reading">
+			<h2>Three Card Spread</h2>
+			<p>explanation of how to read a one card spread</p>
+            <section class="cards">
+                <div class="card">
+                    <h3>Past</h3>
+                    <h4 id="firstCard3"></h4>
+                    <p id="firstCard3Ex"></p>
+                    <p id="desc31"></p>
+                </div>
+                
+    <div class="card">
+        <h3>Present</h3>
+        <h4 id="secondCard3"></h4>
+        <p id="secondCard3Ex"></p>
+        <p id="desc32"></p>
+    </div>
+                
+    <div class="card">
+        <h3>Future</h3>
+        <h4 id="thirdCard3"></h4>
+        <p id="thirdCard3Ex"></p>
+        <p id="desc33"></p>
+    </div>
+            </section>
+			
+			
+		</section>
+
+
+		<section id="fiveCardSpread" class="reading">
+			<h2>Five Card Spread</h2>
+			<p>explanation of how to read a one card spread</p>
+            <section class="cards">
+                <div class="card">
+                    <h3>What to Leave Behind</h3>
+                    <h4 id="firstCard5"></h4>
+                    <p id="firstCard5Ex"></p>
+                    <p id="desc51"></p>
+                </div>
+                            
+                <div class="card">
+                    <h3>Reason for Ending</h3>
+                    <h4 id="secondCard5"></h4>
+                    <p id="secondCard5Ex"></p>
+                    <p id="desc52"></p>
+                </div>
+                            
+                <div class="card">
+                    <h3>What You Will Gain</h3>
+                    <h4 id="thirdCard5"></h4>
+                    <p id="thirdCard5Ex"></p>
+                    <p id="desc53"></p>
+                </div>
+                            
+                <div class="card">
+                    <h3>Lesson Learned</h3>
+                    <h4 id="fourthCard5"></h4>
+                    <p id="fourthCard5Ex"></p>
+                    <p id="desc54"></p>
+                </div>
+                            
+                <div class="card">
+                    <h3>Future</h3>
+                    <h4 id="fifthCard5"></h4>
+                    <p id="fifthCard5Ex"></p>
+                    <p id="desc55"></p>
+                </div>
+            </section>
+
+<!-- 
+		.reading{
+			display:none;
+		  } -->
+
+		<!-- have a place to store readings and view past readings with the date -->
+		
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

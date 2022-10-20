@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+
+.reading{
+    display:none;
+    
+  }
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.card{
+    box-sizing: border-box;
+    width: 22rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.card>*{
+    margin: 0 2rem;
+}
+.card>p{
+    text-align: left;
+}
